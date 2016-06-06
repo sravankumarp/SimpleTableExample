@@ -323,9 +323,12 @@
 		F4FFD31F153BF3E900759785 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleTable/SimpleTable-Prefix.pch";
 				INFOPLIST_FILE = "SimpleTable/SimpleTable-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sravan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -334,9 +337,11 @@
 		F4FFD320153BF3E900759785 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleTable/SimpleTable-Prefix.pch";
 				INFOPLIST_FILE = "SimpleTable/SimpleTable-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sravan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
